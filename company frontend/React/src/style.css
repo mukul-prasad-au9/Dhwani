@@ -1,0 +1,24 @@
+.conta {
+  display: flex;
+  justify-content: center;
+  padding: 10%;
+}
+
+.inner input:focus {
+  outline-color: aqua;
+}
+
+.delete {
+  background-color: red;
+  border: 2px solid black;
+}
+.delete:focus {
+  border-color: teal;
+}
+.submit {
+  background-color: green;
+  border: 2px solid black;
+}
+.submit:focus {
+  border-color: teal;
+}
